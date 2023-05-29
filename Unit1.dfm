@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 712
-  Top = 510
+  Left = 344
+  Top = 572
   Width = 416
   Height = 188
   Caption = 'Menu Form'
@@ -78,12 +78,11 @@ object Form1: TForm1
       end
       object GRAFIKSTRINGGRID1: TMenuItem
         Caption = 'GRAFIK STRINGGRID'
+        OnClick = GRAFIKSTRINGGRID1Click
       end
-      object GRAFIKSTRINGGRIDREVISI1: TMenuItem
-        Caption = 'GRAFIK STRINGGRID REVISI'
-      end
-      object LAT1: TMenuItem
-        Caption = 'LAT'
+      object LATIHAN11: TMenuItem
+        Caption = 'LATIHAN 1'
+        OnClick = LATIHAN11Click
       end
     end
     object DATABASE1: TMenuItem

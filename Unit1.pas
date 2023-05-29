@@ -16,16 +16,18 @@ type
     KONDISIONAL11: TMenuItem;
     KONDISIONAL21: TMenuItem;
     GRAFIKSTRINGGRID1: TMenuItem;
-    GRAFIKSTRINGGRIDREVISI1: TMenuItem;
-    LAT1: TMenuItem;
     DATABASE1: TMenuItem;
     Label1: TLabel;
     Label2: TLabel;
     Label3: TLabel;
+    LATIHAN11: TMenuItem;
     procedure LATIHAN2Click(Sender: TObject);
     procedure LATIHAN21Click(Sender: TObject);
     procedure KONDISIONAL11Click(Sender: TObject);
     procedure KONDISIONAL21Click(Sender: TObject);
+    procedure GRAFIKSTRINGGRID1Click(Sender: TObject);
+    procedure GRAFIKSTRINGGRIDREVISI1Click(Sender: TObject);
+    procedure LATIHAN11Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -37,7 +39,7 @@ var
 
 implementation
 
-uses Unit2, Unit3, Unit4, Unit5;
+uses Unit2, Unit3, Unit4, Unit5, Unit6, Unit7;
 
 {$R *.dfm}
 
@@ -59,6 +61,21 @@ end;
 procedure TForm1.KONDISIONAL21Click(Sender: TObject);
 begin
  Form5.show;
+end;
+
+procedure TForm1.GRAFIKSTRINGGRID1Click(Sender: TObject);
+begin
+ Form6.show;
+end;
+
+procedure TForm1.GRAFIKSTRINGGRIDREVISI1Click(Sender: TObject);
+begin
+  form7.show;
+end;
+
+procedure TForm1.LATIHAN11Click(Sender: TObject);
+begin
+ form7.show;
 end;
 
 end.

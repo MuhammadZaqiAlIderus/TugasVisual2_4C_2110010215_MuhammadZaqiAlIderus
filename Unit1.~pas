@@ -26,6 +26,8 @@ type
     procedure LATIHAN21Click(Sender: TObject);
     procedure KONDISIONAL11Click(Sender: TObject);
     procedure KONDISIONAL21Click(Sender: TObject);
+    procedure GRAFIKSTRINGGRID1Click(Sender: TObject);
+    procedure GRAFIKSTRINGGRIDREVISI1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -37,7 +39,7 @@ var
 
 implementation
 
-uses Unit2, Unit3, Unit4, Unit5;
+uses Unit2, Unit3, Unit4, Unit5, Unit6;
 
 {$R *.dfm}
 
@@ -59,6 +61,16 @@ end;
 procedure TForm1.KONDISIONAL21Click(Sender: TObject);
 begin
  Form5.show;
+end;
+
+procedure TForm1.GRAFIKSTRINGGRID1Click(Sender: TObject);
+begin
+ Form6.show;
+end;
+
+procedure TForm1.GRAFIKSTRINGGRIDREVISI1Click(Sender: TObject);
+begin
+  form7.show;
 end;
 
 end.
